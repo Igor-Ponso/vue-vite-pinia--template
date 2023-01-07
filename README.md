@@ -11,6 +11,11 @@ A template to fast starting new Vue 3 projects.
 * [Pinia](https://pinia.vuejs.org/)
 * [Vitest](https://vitest.dev/)
 
+## NOT Included but nice to know/have
+* [Vue 3 Responsive Video Background Player](https://github.com/avidofood/vue-responsive-video-background-player)
+* [Commitizen](https://github.com/commitizen/cz-cli)
+
+
 ## Highlights
 
 * Typescript by default
