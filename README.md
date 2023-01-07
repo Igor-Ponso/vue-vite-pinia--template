@@ -1,4 +1,4 @@
-# nuxt3-scaffolding
+# Vue3-scaffolding
 
 A template to fast starting new Vue 3 projects.
 
