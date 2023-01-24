@@ -14,7 +14,7 @@ A template to fast starting new Vue 3 projects.
 
 ## NOT Included but nice to know/have
 * [Vue 3 Responsive Video Background Player](https://github.com/avidofood/vue-responsive-video-background-player)
-*[Oh, Vue Icons!](https://oh-vue-icons.js.org/docs)
+* [Oh, Vue Icons!](https://oh-vue-icons.js.org/docs)
 
 
 
