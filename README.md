@@ -11,6 +11,7 @@ A template to fast starting new Vue 3 projects.
 * [Ready to use Composition Utilities](https://vueuse.org/)
 * [Pinia](https://pinia.vuejs.org/)
 * [Vitest](https://vitest.dev/)
+* [Vuetify](https://vuetifyjs.com/en/getting-started/installation/)
 
 ## NOT Included but nice to know/have
 * [Vue 3 Responsive Video Background Player](https://github.com/avidofood/vue-responsive-video-background-player)
@@ -25,4 +26,3 @@ A template to fast starting new Vue 3 projects.
 * Ready to use Utility Classes
 * Custom Error page
 * Prettier Code Formatting
-* Vuetify
