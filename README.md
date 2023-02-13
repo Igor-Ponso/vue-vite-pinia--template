@@ -25,3 +25,4 @@ A template to fast starting new Vue 3 projects.
 * Ready to use Utility Classes
 * Custom Error page
 * Prettier Code Formatting
+* Vuetify
