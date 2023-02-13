@@ -1,7 +1,12 @@
-import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
+import { defineConfig } from 'vite';
 import path from 'node:path';
 import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite';
+import AutoImport from 'unplugin-auto-import/vite';
+import Components from 'unplugin-vue-components/vite';
+import Pages from 'vite-plugin-pages';
+import Inspect from 'vite-plugin-inspect';
+import Layouts from 'vite-plugin-vue-layouts';
 
 export default defineConfig({
   resolve: {
@@ -21,6 +26,29 @@ export default defineConfig({
     VueI18nPlugin({
       include: path.resolve(__dirname, './path/to/src/locales/**'),
     }),
+    AutoImport({
+      dts: true,
+      imports: ['vue', '@vueuse/core', '@vueuse/head', 'vue-router'],
+    }),
+    Layouts({
+      layoutsDirs: 'src/layouts',
+      defaultLayout: 'default',
+    }),
+    Pages({
+      extensions: ['vue'],
+    }),
+    Components({
+      extensions: ['vue'],
+      include: [/\.vue$/, /\.vue\?vue/],
+      dirs: [
+        'src/components/LayoutCompositions',
+        'src/components',
+        'src/widgets',
+      ],
+      dts: true,
+      directoryAsNamespace: true,
+    }),
+    Inspect(),
   ],
   server: {
     host: '0.0.0.0',
@@ -31,5 +59,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['oh-vue-icons/icons'],
   },
-  base: '/pokedex-vue/',
+  base: '/',
 });
