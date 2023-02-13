@@ -1,9 +1,9 @@
 {
-  "name": "pokedex-vue",
+  "name": "<your-project-name>",
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://igor-ponso.github.io/pokedex-vue/",
+  "homepage": "https://<your-user-name>.github.io/<your-project-name>/",
   "scripts": {
     "dev": "vite --port 8000 --open",
     "build": "vue-tsc && vite build",
@@ -19,7 +19,7 @@
     "gh-pages": "^4.0.0",
     "oh-vue-icons": "^1.0.0-rc3",
     "pinia": "^2.0.28",
-    "stylus": "^0.59.0",
+    "stylus": "^0.59.0",r
     "vue": "^3.2.45",
     "vue-i18n": "9"
   },
