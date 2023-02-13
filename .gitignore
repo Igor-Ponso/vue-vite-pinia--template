@@ -10,6 +10,12 @@ lerna-debug.log*
 yarn.lock
 package-lock.json
 
+@types/auto-imports.d.ts
+@types/components.d.ts
+
+coverage
+
+
 node_modules
 dist
 dist-ssr
